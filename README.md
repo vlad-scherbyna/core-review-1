@@ -8,3 +8,7 @@ If the role is ```admin``` then the ```name```, ```role```, ```password``` and `
 If the role is ```regular``` then ```name``` and ```role```.
 
 Formats may change in the future.
+
+The ```permissions``` field must be in pascal-case and parsed only from valid values: ```reportStats```, ```validate```.
+
+These fields are also may change in the future.
